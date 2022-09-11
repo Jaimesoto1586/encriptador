@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <title>enterncrimesptaidoberr denter pailaibrais</title>
+</head>
+<body>
+    <header class="container">
+
+        <div class="logo">
+            <img class="imglogo" src="img/vector.png" alt="logoalura">
+        </div>
+
+        <div class="left">
+            <input id="input-text" class="text-input" type="text" placeholder="Ingrese el texto aquí">
+        </div>
+
+        <aside class="right">
+            <img id="img-right" src="img/muneco.png" alt="fotodibujo">
+            <h1 id="text1-right">Ningún mensaje fue encontrado</h1>
+            <textarea id="text2-right" name="" id="" cols="80" rows="16">Ingresa el texto que desees encriptar o desencriptar.</textarea>
+            <button id="copy-text" onclick="copiar()" type="submit">Copiar</button>
+        </aside>
+
+        <div class="caja1">
+            <img class="text-btn-left" src="img/Vectoor.png" alt="">
+            <p class="prueba">Solo letras minúsculas y sin acentos</p>
+        </div>
+
+        <div class="btn-left">
+            <button id="btn-encriptar" onclick="encriptar()" type="submit">Encriptar</button>
+            <button id="btn-desencriptar" onclick="desencriptar()" type="submit">Desencriptar</button>
+        </div>
+
+
+    </header>
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

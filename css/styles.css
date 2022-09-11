@@ -1,0 +1,149 @@
+body {
+    font-family: 'Inter';
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #f3f5fc;
+}
+
+.container {
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+
+.logo {
+    width: 100%;
+    float: left;
+}
+
+.imglogo {
+    margin-top: 1%;
+    margin-left: auto;
+    float: inherit;
+}
+
+/*.imglogo {
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}*/
+
+.left {
+    height: 70%;
+    width: 70%;
+    float: left;
+    border-radius: 24px;
+}
+
+.text-input {
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 300px;
+    top: 168px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border: none;
+    outline: none;
+    color: #0A3871;
+    background: #f3f5fc;   
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+.btn-left {
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.caja1 {
+    height: 5%;
+    width: 70%;
+    float: left;
+}
+
+.prueba {
+    margin-left: 1%;
+    float: left;
+}
+
+.text-btn-left {
+    float: left;    
+}
+
+#btn-encriptar {
+    background: #0A3871;
+    border-radius: 24px;
+    color: #ffff;
+    width: 30%;
+    height: 60%;
+    padding: 24px;
+    /*margin-left: 15%;*/
+}
+
+#btn-desencriptar {
+    background: #D8DFE8;
+    border-radius: 24px;
+    color: #0A3871;
+    width: 30%;
+    height: 60%;
+    padding: 24px;
+    margin-left: 15%;
+}
+
+.right {
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: #ffff;
+}
+
+#img-right {
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+
+#text1-right {
+    margin-left: 7%;
+    margin-right: 5%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+}
+
+#text2-right {
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+#copy-text {
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+}
